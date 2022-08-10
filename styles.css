@@ -1,0 +1,451 @@
+html * {
+  font-family: 'Outfit';
+  box-sizing: border-box;
+}
+input {
+  outline-color: lightgreen;
+}
+button {
+  outline-color: lightgreen;
+  border: none;
+  background-color: transparent;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #F9F9F9;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 64px;
+  width: 100%;
+  background: #FFFFFF;
+}
+.header-subpart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-items {
+  padding-left: 77px;
+  padding-right: 11px;
+}
+
+.navbar-items > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #111111;
+  padding: 0px;
+}
+.navbar-items .divider {
+  width: 0px;
+  height: 18px;
+  border-color: #111111;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  margin: 0 16px;
+}
+.search-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 376px;
+  height: 48px;
+
+  background: #FFFFFF;
+  border: 2px solid #3A6150;
+  border-radius: 2px 0px 0px 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 16px;
+}
+
+.search-button {
+
+  width: 48px;
+  height: 48px;
+  background: #3A6150;
+  border-radius: 0px 2px 2px 0px;
+  
+}
+
+.hero {
+  width: 100vw;
+  padding: 0px 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero > img {
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: inherit;
+}
+
+.hero-text > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #3A6150;
+  margin: 0!important;
+}
+
+.hero-text > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3A6150;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.hero-text > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111111;
+  max-width: 536px;
+}
+.button-standart {
+  width: 196px;
+  height: 48px;
+  background: #3A6150;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.about-section {
+  background: #FFFFFF;
+  width: 100%;
+  padding: 80px 64px;
+  display: flex;
+  flex-direction: row;
+}
+.about-card {
+  flex-grow: 1;
+  margin: 0 6px; 
+  background: #3A6150;
+  border-radius: 2px;
+  padding: 24px 24px 35px 24px;
+  display: flex;
+  flex-direction: row;
+}
+.about-card > img {
+  max-width: 180px;
+  object-fit: contain;
+}
+.about-content {
+  height: 100%;
+  width: 100%;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-content > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 0px;
+}
+.about-content > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.about-content > a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+
+}
+.contact-us-section {
+  background: #71837B;
+  width: 100%;
+  padding: 80px 64px 120px 64px;
+
+}
+.contact-us-box {
+  border-radius: 12px;
+  background: #FFFFFF;
+  width: 100%;
+  display: flex;
+}
+.contact-us-card {
+  background-image: url('assets/paporot.png');
+  border-radius: 12px;
+  max-width: 425px;
+  height: 637px;
+  padding: 42px 42px 50px 42px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-card > h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #111111;
+  margin: 0 0 16px 0;
+}
+.contact-us-card > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111111;
+  margin-bottom: 36px;
+}
+.info-row {
+  justify-self: flex-end;
+  display: flex;
+  margin-top: 20px;
+}
+.info-row > span{
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111111;
+}
+.icons-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  width: 168px;
+}
+.contact-us-form {
+  width: 100%;
+  padding: 48px 20px 48px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.inputs-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-form-row {
+  padding-right: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.input-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+}
+.asterix::before {
+  content: "* ";
+  color: #FF0000;
+}
+.outlined-input {
+  width: 100%;
+  height: 44px;
+  border: 2px solid #3A6150;
+  border-radius: 3px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
+.second-form-row {
+  padding-left: 10px;
+  width: 50%;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.radio-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+.radio {
+  margin-right: 46px;
+}
+.radio > input[type="radio"] {
+  margin-left: 10px;
+}
+.radio > label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.15px;
+  color: #131516;
+}
+.contact-us-form > label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  margin-bottom: 8px;
+}
+.contact-us-form > textarea {
+  width: 100%;
+  height: 104px;
+  border: 1px solid #111111;
+  border-radius: 3px;
+  outline-color: lightgreen;
+  resize: none;
+  padding: 8px;
+  margin-bottom: 37px;
+}
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.checkbox-item {
+  margin-right: 59px;
+}
+.checkbox-item > label {
+  margin-left: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #131516;
+}
+.checkbox-item > input {
+  margin: 0px;
+}
+.send-message-button {
+  width: 196px;
+  height: 49px;
+  background: #3A6150;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  align-self: flex-end;
+  margin-top: auto;
+}
+footer {
+  background: #F9F9F9;
+  width: 100%;
+
+}
+.plant-me-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 64px;
+}
+.plant-me-row > h1 {
+  margin: 0;
+}
+.plant-me-row > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+.send-email-line {
+  display: flex;
+  justify-content: space-between;
+}
+.send-email-line > input {
+  border-bottom: 1px solid #111111;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 308px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 145%;
+  color: rgba(17, 17, 17, 0.5);
+  outline-width: 0px 0px 1px 0px;
+}
+.send-email-line > button {
+  background: #3A6150;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  width: 195px;
+  height: 54px;
+}
+.about-us-row > p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #111111;
+  margin: 0 0 16px 0;
+}
+.address-row {
+  display: flex;
+  flex-direction: column;
+}
+.address-row > p {
+  margin: 0 0 8px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  font-style: normal;
+}
+.address-row > a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 40px 0;
+  font-style: normal;
+}
+.grey-colored {
+  color: rgba(0, 0, 0, 0.6);
+}
+.divider {
+  border: 1px solid #E9E9E9;
+  width: 100%;
+}
+.ending-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 64px;
+  align-items: center;
+}
+.ending-options {
+  height: 68px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ending-options > a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: rgba(17, 17, 17, 0.5);
+}
